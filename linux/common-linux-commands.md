@@ -20,8 +20,11 @@ $ mv filename newfilename
 # Move file to different directory
 $ mv filename /directorypath/
 
-# Remove file or directory
+# Remove file or empty directory
 $ rm filename
+
+# Remove directory and everything in it
+$ rm -r directoryname
 
 # List files in directory
 $ ls
