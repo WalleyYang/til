@@ -41,6 +41,9 @@ $ find . -name 'file'
 # Count specific files in current directory
 $ find . -name 'file' | wc -l
 
+# Benchmark a process
+$ time processtorun
+
 ```
 
 vi Editor
