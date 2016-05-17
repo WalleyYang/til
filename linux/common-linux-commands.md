@@ -74,6 +74,12 @@ $ :wq
 
 # Quit vi Editor without saving
 $ :q
+
+# Show line numbers
+$ :set number
+
+# Hide line numbers
+$ :set nonumber
 ```
 
 
