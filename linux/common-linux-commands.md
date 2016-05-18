@@ -44,6 +44,8 @@ $ find . -name 'file' | wc -l
 # Benchmark a process
 $ time processtorun
 
+# See packages installed and sort them
+$ rpm -qa | sort
 ```
 
 vi Editor
