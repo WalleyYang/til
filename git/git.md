@@ -17,7 +17,7 @@ $ git checkout commit_version path_to_file/file
 # List files to be pushed
 $ git diff --stat --cached remote/branch
 
-# Rebase a branch and push
+# Rebase (squash multiple commits) a branch and push
 $ git checkout branch
 $ git rebase -i master
 $ git push origin branch --force
