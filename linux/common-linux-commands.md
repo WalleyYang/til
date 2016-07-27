@@ -47,6 +47,9 @@ $ time processtorun
 # Show brief hardware summary
 $ sudo lshw -short
 
+# Extract tar.gz
+tar -zxvf
+
 # See packages installed and sort them (Redhat)
 $ rpm -qa | sort
 ```
