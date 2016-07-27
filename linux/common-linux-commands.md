@@ -44,6 +44,9 @@ $ find . -name 'file' | wc -l
 # Benchmark a process
 $ time processtorun
 
+# Show brief hardware summary
+$ sudo lshw -short
+
 # See packages installed and sort them (Redhat)
 $ rpm -qa | sort
 ```
