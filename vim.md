@@ -1,4 +1,4 @@
 ### Save default desert color scheme
-## Add :color desert
+#### Add :color desert
 
 $ vim ~/.vimrc
