@@ -17,6 +17,12 @@ $ git checkout commit_version path_to_file/file
 # Rename a branch
 $ git branch -m <new-branch>
 
+# Show local and remote branches
+$ git branch -a
+
+# Local branch to track remote branch
+$ git checkout -b <branch_name> -t origin/<branch_name> 
+
 # List files to be pushed
 $ git diff --stat --cached remote/<branch>
 
