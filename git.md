@@ -2,6 +2,12 @@
 
 Git Commands
 ```bash
+# See one line log of last x commits
+$ git log --oneline -x
+
+# See changes on staged files
+$ git diff --cached
+
 # Reset and sync remote to local repository
 $ git fetch origin && git reset --hard origin/master && git clean -f -d
 
