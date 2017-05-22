@@ -2,6 +2,10 @@
 
 Git Commands
 ```bash
+# Remove untracked files and unstaged changes
+$ git clean -df
+$ git checkout -- .
+
 # See one line log of last x commits
 $ git log --oneline -x
 
