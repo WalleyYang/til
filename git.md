@@ -36,6 +36,10 @@ $ git checkout -b <branch_name> -t origin/<branch_name>
 # List files to be pushed
 $ git diff --stat --cached remote/<branch>
 
+# Combined (squash last multiple commits) without using rebase or squash
+$ git reset --soft HEAD~x
+$ git commit -m "New message"
+
 # Rebase (squash multiple commits) a branch and push
 $ git checkout <branch>
 $ git rebase -i master
