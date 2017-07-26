@@ -36,6 +36,9 @@ $ git checkout -b <branch_name> -t origin/<branch_name>
 # List files to be pushed
 $ git diff --stat --cached remote/<branch>
 
+$ See difference between local and remote (files only)
+git diff --name-only <local branch> origin/<branch>
+
 # Combined (squash last multiple commits) without using rebase or squash
 $ git reset --soft HEAD~x
 $ git commit -m "New message"
