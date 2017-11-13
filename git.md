@@ -47,4 +47,14 @@ $ git commit -m "New message"
 $ git checkout <branch>
 $ git rebase -i master
 $ git push origin branch --force
+
+# Set git username
+$ git config --global user.name "My Name"
+
+# Set git email
+$ git config --global user.email "email@example.com"
+
+# Set git editor to vim
+$ git config --global core.editor vim
+$
 ```
