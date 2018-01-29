@@ -43,9 +43,11 @@ $ git diff --name-only <local branch> origin/<branch>
 $ git reset --soft HEAD~x
 $ git commit -m "New message"
 
-# Rebase (squash multiple commits) a branch and push
+# Rebase (squash multiple commits) on a branch and force push
+# Change the pick to squash and leave at least one and save
+# Update the commit message
 $ git checkout <branch>
-$ git rebase -i master
+$ git rebase -i HEAD~x
 $ git push origin branch --force
 
 # Set git username
