@@ -4,7 +4,7 @@ Common Shell Commands
 $ sudo service mongod start
 
 # Stop
-$ sudo service mongod start
+$ sudo service mongod stop
 
 # Start MongoDB Shell
 $ mongo
