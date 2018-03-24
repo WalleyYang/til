@@ -20,4 +20,10 @@ $ show collections
 
 # View collection contents
 $ db.<collection name>.find()
+
+# Dump MongoDB
+$ mongodump -d <database_name> -o <directory_backup>
+
+# Restore MongoDB
+$ mongorestore -d <database_name> <directory_backup>
 ```
