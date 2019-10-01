@@ -44,13 +44,13 @@
 `docker image prune -a`
 
 ##### Tag image
-`docker tag <image> username/repository:tag`
+`docker tag <image> <repository>:<tag>`
 
 ##### Push tagged image to registry
-`docker push username/repository:tag`
+`docker push <repository>:<tag>`
 
 ##### Run image from registry
-`docker run username/repository:tag`
+`docker run <repository>:<tag>`
 
 #### Volumes
 
