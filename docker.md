@@ -32,7 +32,7 @@
 #### Images
 
 ##### Build image and tag it
-`docker build -t <image name> .`
+`docker build -t <image name>:<tag> .`
 
 ##### Remove image
 `docker rmi <image>`
