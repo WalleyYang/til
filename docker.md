@@ -50,7 +50,10 @@
 `docker push <repository>:<tag>`
 
 ##### Run image from registry
-`docker run <repository>:<tag>`
+`docker container run <repository>:<tag>`
+
+##### Run image interactive/pseudo tty (simulates terminal)
+`docker container run -it <image>
 
 #### Volumes
 
