@@ -29,6 +29,12 @@
 ##### Remove container
 `docker rm <container>`
 
+##### Run named container
+`docker start <container name>`
+
+##### Stop named container
+`docker stop <container name>`
+
 #### Images
 
 ##### Build image and tag it
@@ -49,11 +55,14 @@
 ##### Push tagged image to registry
 `docker push <repository>:<tag>`
 
-##### Run image from registry
+##### Run image from registry (tag is required if it's not the latest)
 `docker container run <repository>:<tag>`
 
 ##### Run image interactive/pseudo tty (simulates terminal)
-`docker container run -it <image>
+`docker container run -it <image>`
+
+##### Run image with container name
+`docker container run --name <name> <repository>:<tag>`
 
 #### Volumes
 
