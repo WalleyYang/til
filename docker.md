@@ -35,6 +35,9 @@
 ##### Stop named container
 `docker stop <container name>`
 
+##### Get into Bash in existing container
+`docker exec -it <container name> bash`
+
 #### Images
 
 ##### Build image and tag it
