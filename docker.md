@@ -38,6 +38,9 @@
 ##### Get into Bash in existing container
 `docker exec -it <container name> bash`
 
+#### Tag container to image (Commits the container changes to local image)
+`docker commit <container> <image>`
+
 #### Images
 
 ##### Build image and tag it
