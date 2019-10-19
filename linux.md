@@ -52,6 +52,9 @@ $ tar -zxvf
 
 # See packages installed and sort them (Redhat)
 $ rpm -qa | sort
+
+# Copy file from host to remote
+$ scp file_to_transfer.txt root@remotehost.com:/directory_to_drop_file/location/
 ```
 
 vi Editor
