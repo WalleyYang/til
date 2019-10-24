@@ -195,7 +195,7 @@ public interface TransactionService {
 ```
 
 ### Dependency Inversion Principle
-Depend on abstractions rather than concrete implementations. This helps reduce coupling between components by introducing abstractions (think of interfaces) between them. 
+High level objects should not depend on low level implementations. Abstractions should not depend on details and details should depend on abstractions. Depend on abstractions rather than concrete implementations. This helps reduce coupling between components by introducing abstractions (think of interfaces) between them. 
 ```
 // Violates DIP. The ReportGenerator has a specific dependency on HtmlReportWrite class. This violates DIP if we want to generate a different report format.
 
