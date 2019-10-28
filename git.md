@@ -58,5 +58,7 @@ $ git config --global user.email "email@example.com"
 
 # Set git editor to vim
 $ git config --global core.editor vim
-$
+
+# Delete all local branches except for current
+$ git branch | grep -v '^*' | xargs git branch -D
 ```
