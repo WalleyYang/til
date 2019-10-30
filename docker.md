@@ -3,6 +3,9 @@
 ##### Run container
 `docker-compose up`
 
+##### Run container for specific compose file
+`docker-compose -f specificfile.yml up`
+
 ##### Stop container
 `docker-compose down`
 
