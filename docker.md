@@ -18,6 +18,9 @@
 ##### Recreate container from existing image
 `docker-compose up --force-recreate`
 
+##### Prune containers
+`docker container prune`
+
 #### Containers
 
 ##### List all containers
