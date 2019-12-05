@@ -86,3 +86,8 @@
 
 ##### Remove dangling volumes
 `docker volume prune`
+
+#### Miscellaneous
+##### Clean everything
+`docker system prune -a`
+
