@@ -87,6 +87,17 @@
 ##### Remove dangling volumes
 `docker volume prune`
 
+#### Swarm
+
+##### List stack in swarm
+`docker stack ls`
+
+##### Deploy stack to swarm
+`docker stack deploy --compose-file docker-compose.yml <name>`
+
+##### Remove stack from swarm
+`docker stack rm <name>`
+
 #### Miscellaneous
 ##### Clean everything
 `docker system prune -a`
