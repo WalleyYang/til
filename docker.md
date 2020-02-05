@@ -9,6 +9,12 @@
 ##### Stop container
 `docker-compose down`
 
+##### Stop all containers
+`docker stop $(docker ps -a -q)`
+
+##### Remove all containers
+`docker rm $(docker ps -a -q)`
+
 ##### Run container in background
 `docker-compose up -d`
 
