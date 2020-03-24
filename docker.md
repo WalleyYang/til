@@ -108,3 +108,8 @@
 ##### Clean everything
 `docker system prune -a`
 
+##### Save Image to tar
+`docker save <image> > <image>.tar`
+
+##### Load Image from tar
+`docker load < <image>.tar`
