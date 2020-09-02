@@ -104,6 +104,9 @@
 ##### Remove stack from swarm
 `docker stack rm <name>`
 
+##### List containers from all nodes
+`docker node ps $(docker node ls -q)`
+
 #### Miscellaneous
 ##### Clean everything
 `docker system prune -a`
