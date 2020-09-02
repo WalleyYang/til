@@ -107,6 +107,9 @@
 ##### List containers from all nodes
 `docker node ps $(docker node ls -q)`
 
+##### List services in stack
+`docker stack services <stack name>`
+
 #### Miscellaneous
 ##### Clean everything
 `docker system prune -a`
