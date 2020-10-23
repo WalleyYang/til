@@ -47,8 +47,11 @@ $ time processtorun
 # Show brief hardware summary
 $ sudo lshw -short
 
-# Extract tar.gz
-$ tar -zxvf
+# Compress directory
+tar -czf <name>.tgz <directory>
+
+# Uncompress directory
+tar -xvf <directory>.tgz
 
 # See packages installed and sort them (Redhat)
 $ rpm -qa | sort
