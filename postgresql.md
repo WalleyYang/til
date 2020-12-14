@@ -1,3 +1,6 @@
+# Connect to PostgreSQL running in Docker
+`docker exec -it <container_name> bash` then you can use the psql commands.
+
 Originally from https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
 
 ## PSQL
