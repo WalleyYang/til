@@ -110,6 +110,9 @@
 ##### List services in stack
 `docker stack services <stack name>`
 
+##### See log in a service
+`docker service logs -f <service name>`
+
 #### Miscellaneous
 ##### Clean everything
 `docker system prune -a`
