@@ -93,6 +93,9 @@
 ##### Remove dangling volumes
 `docker volume prune`
 
+##### Remove all volume
+`docker volume rm $(docker volume ls -q)`
+
 #### Swarm
 
 ##### List stack in swarm
